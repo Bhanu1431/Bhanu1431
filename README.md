@@ -1,4 +1,2 @@
-# Bhanu1995
-Config files for my GitHub profile.
-bhanu1995 
-this file from mega raeadme.md
+#Bhanu1995
+this file for mega raeadme.md
