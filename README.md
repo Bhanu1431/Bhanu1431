@@ -1,2 +1,2 @@
-#Bhanu1995
+Bhanu1995
 this file for mega raeadme.md
