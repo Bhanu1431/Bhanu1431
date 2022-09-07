@@ -1,2 +1,2 @@
 Bhanu@1995 
-Config files for my GitHub profile.
+Config files for my GitHub profile
