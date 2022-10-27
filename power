@@ -1,0 +1,12 @@
+#include<studio.h>
+#include<coino.h>
+
+  viod main()
+
+  {
+    int a=20; 
+    printf("the valve is display"); 
+    scanf("%d");
+  }
+
+  
