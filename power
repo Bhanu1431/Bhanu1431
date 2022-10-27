@@ -1,2 +1,12 @@
-this is power star
-i am the power star
+#include<studio.h>
+#include<coino.h>
+
+  viod main()
+
+  {
+    int a=10; 
+    printf("the valve is display"); 
+    scanf("%d");
+  }
+
+  
