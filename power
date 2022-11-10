@@ -1,12 +1,17 @@
-#include<studio.h>
-#include<coino.h>
-
-  viod main()
+public class login
+{
+  
+   public static viod main(string args[])
 
   {
-    int a=5; 
-    printf("the valve is display"); 
-    scanf("%d");
+
+    int a= 5;
+
+    for (i=0;i<=10;i=++) 
+     {
+        system.out. println("number: "+ a); 
+     
+     }
   }
 
-  
+}
