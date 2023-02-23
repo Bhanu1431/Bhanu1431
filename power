@@ -4,7 +4,7 @@
   viod main()
 
   {
-    int a=20; 
+    int a=15; 
     printf("the valve is display"); 
     scanf("%d");
   }
