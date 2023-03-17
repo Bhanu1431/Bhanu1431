@@ -1,0 +1,31 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: backend
+  labels:
+    env: database-backend
+    version: 1.2.3
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app.kubernetes.io/name: mongo
+      app.kubernetes.io/component: backend
+  template:
+   metadata:
+    labels:
+      app.kubernetes.io/name: mongo
+      app.kubernetes.io/component: backend
+   spec:
+     containers:
+     - name: database-container
+       image: mongo:4.2
+       args:
+         - --bind_ip
+         - 0.0.0.0
+       resources:
+         requests:
+           cpu: 100m
+           memory: 100Mi
+       ports:
+       - containerPort: 27017
