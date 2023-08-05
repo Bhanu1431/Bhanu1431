@@ -1,0 +1,17 @@
+<project>
+        <groupId>com.bhanu</groupId>
+        <artifactId>bhanu.com</artifactId>
+        <version>1.0</version>
+        <package>war</package>
+        <dependencies>
+                <dependency>
+                        <groupId>junit</groupId>
+                        <artifactId>junit</artifactId>
+			<scope>test</scope>
+		<dependency>
+
+		<dependency>
+			<groupId>javax.servlet</groupId>
+                        <artifactId>javax.servlet-api</artifactId>
+                        <scope>proivded</scope>
+
